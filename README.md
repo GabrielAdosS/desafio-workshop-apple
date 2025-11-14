@@ -4,13 +4,14 @@ Um mini RPG de texto, feito em Swift, onde seu objetivo é sobreviver aos três 
 
 ## 📜 Mini-história
 
-Você é um valente aventureiro (ou aventureira!) que ousa entrar na lendária **Torre dos 3 Andares da Destruição**. Ninguém que entrou jamais retornou.
+Você é um valente aventureiro (ou aventureira!) que aceitou a missão de **derrotar os quatro devotos da Torre dos Devotos ao Caos**. Onde ninguém que entrou jamais retornou.
 
-Em cada andar, uma criatura terrível guarda a passagem. Sua missão é simples, mas mortal: subir até o topo, derrotar o mal que lá reside e provar seu valor.
+Em cada andar, um devoto terrível guarda a passagem para o próximo. Sua missão é simples, mas mortal: derrotar os devotos que lá reside e concluir a sua missão.
 
 ## ⚔️ Tema
 
-Este é um **RPG de texto (Text-based RPG)** simples com uma temática de **Fantasia Medieval** e "subida de torre" (*tower climb*). Toda a interação acontece via console, onde você toma decisões estratégicas para sobreviver a combates em turnos.
+Este é um **RPG de texto (Text-based RPG)** simples com uma temática de **Fantasia Medieval** e "Derrotar Inimigo"
+Toda a interação acontece via console, onde você toma decisões estratégicas para sobreviver a combates em turnos.
 
 ## 🕹️ Como Jogar
 
@@ -24,41 +25,42 @@ Ao iniciar o jogo, você deve:
 
     * **1. Guerreiro:**
         * **Vida:** 110
-        * **Arma:** Espada (50 de dano)
-        * **Habilidade Especial:** `Defender-se` (Reduz o dano recebido do monstro pela metade naquele turno).
+        * **Arma:** Espada (65 de dano)
+        * **Item único:** `Escudo` (Reduz o dano recebido do monstro pela metade naquele turno).
 
     * **2. Arqueiro:**
         * **Vida:** 90
         * **Arma:** Arco (55 de dano)
         * **Habilidade Especial:** `Esquivar` (Evita completamente o ataque do monstro naquele turno).
 
-### 2. Subindo a Torre
+### 2. Subindo a Torre dos devotos
 
-A torre possui 3 andares, cada um com um guardião:
+A torre possui 4 devotos, cada um com um devoto:
 
-* **Andar 1:** Esqueleto (Vida: 75, Dano: 35)
-* **Andar 2:** Troll (Vida: 80, Dano: 40)
-* **Andar 3:** Lith (Vida: 110, Dano: 50)
+* **devoto 1:** Esqueleto (Vida: 65, Dano: 35)
+* **devoto 2:** Troll (Vida: 130, Dano: 40)
+* **devoto 3:** Lith (Vida: 110, Dano: 50)
+* **devoto 4:** Dragão (Vida: 220, Dano: 70)
 
-Você deve derrotar o monstro de um andar para avançar para o próximo.
+Você deve derrotar o devoto para avançar para o próximo.
 
 ### 3. Combate
 
 O combate é baseado em turnos. Em cada turno, você terá duas opções:
 
-1.  **Atacar:** Você ataca o monstro com sua arma, causando dano. Em seguida, o monstro ataca você, causando dano total.
-2.  **Habilidade Especial:** Você usa a habilidade da sua classe (Defender ou Esquivar).
+1.  **Atacar:** Você ataca o devoto com sua arma, causando dano. Em seguida, o devoto ataca você, causando dano total.
+2.  **Habilidade Especial:** Você usa a habilidade/Item da sua classe (Esquivar ou Escudo).
 
 ### 4. Vitória e Derrota
 
-* **Vitória:** Você vence o jogo se conseguir derrotar os três monstros e limpar a torre.
-* **Derrota:** Sua jornada termina se sua vida chegar a 0. O jogo informará para qual monstro você perdeu.
+* **Vitória:** Você vence o jogo se conseguir derrotar os quatro devoto e limpar a torre.
+* **Derrota:** Sua missão termina se sua vida chegar a 0. O jogo informará para qual devoto você perdeu.
 
 ---
 
 ## 📥 Clonando o Repositório
 
-Para baixar (clonar) este projeto para a sua máquina local, substitua `[URL-DO-SEU-REPOSITORIO]` pela URL real do seu projeto no GitHub e execute no terminal:
+Para baixar (clonar) este projeto para a sua máquina local, substitua `https://github.com/GabrielAdosS/desafio-workshop-apple.git` pela URL real do seu projeto no GitHub e execute no terminal:
 
 ```bash
 git clone https://github.com/GabrielAdosS/desafio-workshop-apple.git
