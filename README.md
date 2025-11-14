@@ -1,4 +1,4 @@
-# 🗼 Torre da Destruição
+# 🗼Torre dos Devotos ao Caos
 
 Um mini RPG de texto, feito em Swift, onde seu objetivo é completar a sua missão derrotando os devotos ao caos
 
