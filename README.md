@@ -60,8 +60,6 @@ O combate é baseado em turnos. Em cada turno, você terá duas opções:
 
 ## 📥 Clonando o Repositório
 
-Para baixar (clonar) este projeto para a sua máquina local, substitua `https://github.com/GabrielAdosS/desafio-workshop-apple.git` pela URL real do seu projeto no GitHub e execute no terminal:
-
 ```bash
 git clone https://github.com/GabrielAdosS/desafio-workshop-apple.git
 
