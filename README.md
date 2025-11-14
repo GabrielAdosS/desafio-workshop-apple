@@ -48,12 +48,12 @@ Você deve derrotar o devoto para avançar para o próximo.
 
 O combate é baseado em turnos. Em cada turno, você terá duas opções:
 
-1.  **Atacar:** Você ataca o devoto com sua arma, causando dano. Em seguida, o devoto ataca você, causando dano total.
-2.  **Habilidade Especial:** Você usa a habilidade/Item da sua classe (Esquivar ou Escudo).
+1.  **Atacar:** Escolhendo 1 você ataca o devoto com sua arma, causando dano. Em seguida, o devoto ataca você, causando dano total.
+2.  **Habilidade Especial:** Escolhendo 2 você usa a habilidade/Item da sua classe (Esquivar ou Escudo), e o devoto ataca.
 
 ### 4. Vitória e Derrota
 
-* **Vitória:** Você vence o jogo se conseguir derrotar os quatro devoto e limpar a torre.
+* **Vitória:** Você vence o jogo se conseguir derrotar os quatro devoto.
 * **Derrota:** Sua missão termina se sua vida chegar a 0. O jogo informará para qual devoto você perdeu.
 
 ---
