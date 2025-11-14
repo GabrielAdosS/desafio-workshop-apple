@@ -61,10 +61,9 @@ O combate é baseado em turnos. Em cada turno, você terá duas opções:
 Para baixar (clonar) este projeto para a sua máquina local, substitua `[URL-DO-SEU-REPOSITORIO]` pela URL real do seu projeto no GitHub e execute no terminal:
 
 ```bash
-git clone [URL-DO-SEU-REPOSITORIO]
+git clone [https://github.com/GabrielAdosS/desafio-workshop-apple.git]
 
-# Substitua [NOME-DO-REPOSITORIO] pelo nome da pasta
-cd [NOME-DO-REPOSITORIO]
+cd [desafio-workshop-apple]
 
 # Execute o jogo
 swift main.swift
