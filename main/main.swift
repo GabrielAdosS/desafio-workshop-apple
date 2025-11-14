@@ -24,11 +24,11 @@ func cura(_ jogador: inout [String: Any]) {
         let vidaPerdida = vidaMaxima - vida
         let cura = Int(Double(vidaPerdida) * 0.75)
         vida += cura
-        print("...Descançou pouco, recuperou \(cura) de vida!")
+        print("...Descansou pouco, recuperou \(cura) de vida!")
     } else {
         // cura 100%
         vida = vidaMaxima
-        print("...Descançou bem, recuperação total! \(vida)")
+        print("...Descansou bem, recuperação total! \(vida)")
     }
     jogador["vida"] = vida
 }
