@@ -88,8 +88,8 @@ func batalha(
 }
 
 func exibirClasses() {
-    print("1 - Guerreiro: espada de 65 de dano e escudo")
-    print("2 - Arqueiro: arco de 55 de dano e esquiva")
+    print("1 - Guerreiro: espada de 65 de dano, escudo e 110 de vida")
+    print("2 - Arqueiro: arco de 55 de dano, habilidade de esquiva e 90 de vida")
 }
 print("--- Crie o seu aventureiro(a) ---")
 print("Informe o nome: ")
