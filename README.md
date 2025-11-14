@@ -1,16 +1,16 @@
 # 🗼 Torre da Destruição
 
-Um mini RPG de texto, feito em Swift, onde seu objetivo é sobreviver aos três andares da temida Torre da Destruição.
+Um mini RPG de texto, feito em Swift, onde seu objetivo é completar a sua missão derrotando os devotos ao caos
 
 ## 📜 Mini-história
 
 Você é um valente aventureiro (ou aventureira!) que aceitou a missão de **derrotar os quatro devotos da Torre dos Devotos ao Caos**. Onde ninguém que entrou jamais retornou.
 
-Em cada andar, um devoto terrível guarda a passagem para o próximo. Sua missão é simples, mas mortal: derrotar os devotos que lá reside e concluir a sua missão.
+Em cada andar, um devoto terrível guarda a passagem para o próximo. Sua missão é simples, mas mortal: derrotar os devotos que lá reside e concluir a missão.
 
 ## ⚔️ Tema
 
-Este é um **RPG de texto (Text-based RPG)** simples com uma temática de **Fantasia Medieval** e "Derrotar Inimigo"
+Este é um **RPG de texto** simples com uma temática de **Fantasia Medieval** e "Derrotar Inimigo"
 Toda a interação acontece via console, onde você toma decisões estratégicas para sobreviver a combates em turnos.
 
 ## 🕹️ Como Jogar
@@ -48,8 +48,8 @@ Você deve derrotar o devoto para avançar para o próximo.
 
 O combate é baseado em turnos. Em cada turno, você terá duas opções:
 
-1.  **Atacar:** Escolhendo 1 você ataca o devoto com sua arma, causando dano. Em seguida, o devoto ataca você, causando dano total.
-2.  **Habilidade Especial:** Escolhendo 2 você usa a habilidade/Item da sua classe (Esquivar ou Escudo), e o devoto ataca.
+1.  **Atacar:** Escolhendo 1 você ataca o devoto com sua arma, causando dano. Em seguida, o devoto ataca você finalizando o turno.
+2.  **Habilidade Especial:** Escolhendo 2 você usa a habilidade/Item da sua classe (Esquivar ou Escudo), e o devoto ataca você finalizando o turno.
 
 ### 4. Vitória e Derrota
 
